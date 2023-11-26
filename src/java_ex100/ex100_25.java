@@ -2,7 +2,7 @@ package java_ex100;
 
 import java.util.Scanner;
 
-public class ex100_23 {
+public class ex100_25 {
 
 	public static void main(String[] args) {
 		Scanner scan = new Scanner(System.in);
@@ -12,7 +12,7 @@ public class ex100_23 {
 		
 		int res=0;
 		
-		if(i<=j)
+		if(i!=j)
 			res=1;
 		else
 			res=0;
